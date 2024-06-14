@@ -1,23 +1,22 @@
-import streamlit as st
-import pandas as pd
 from datetime import datetime
+
+import pandas as pd
 from deep_translator import GoogleTranslator
 
-tradutor = GoogleTranslator(source= "en", target= "pt")
+import streamlit as st
+
+tradutor = GoogleTranslator(source='en', target='pt')
 
 st.set_page_config(
-    page_title="Detalhes",
-#    page_icon='',
-     layout="wide",
-     initial_sidebar_state='collapsed'
+    page_title='Detalhes',
+    #    page_icon='',
+    layout='wide',
+    initial_sidebar_state='collapsed',
 )
 df = pd.read_excel('../data/output/animes_temporada.xlsx')
 
 
-animes = st.selectbox(
-    'Ver Detalhe de qual anime? ',
-    df['nome']
-)
+animes = st.selectbox('Ver Detalhe de qual anime? ', df['nome'])
 
 df_anime = df[df['nome'] == animes]
 anime = df_anime['nome'].value_counts().index
