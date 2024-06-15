@@ -8,7 +8,7 @@ def carrega_csv(
 ):
 
     """
-    funcao para criar um arquivo em excel
+    funcao para criar um arquivo excel
 
     args: p_dataframe: pd.DataFrame dataframe que vai ser transformado em excel
     p_caminho: str Caminho que deseja salvar

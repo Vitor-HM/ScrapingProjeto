@@ -5,7 +5,18 @@
 
 # Funções
 
-### Funcao que faz a requisição ao site
+### Função requisicao
 
 #### :::app.pipeline.extract.requisicao
 
+### Função raspagem
+### :::app.pipeline.extract.raspasgem
+
+
+### Funcao cria_dataframe
+
+### :::app.pipeline.transform.cria_dataframe
+
+### Função carrega csv
+
+### :::app.pipeline.load.carrega_csv
