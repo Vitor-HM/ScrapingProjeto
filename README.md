@@ -1,11 +1,11 @@
 ## Sobre o Projeto
-Esse projeto foi feito para colocar em pratica alguns dos aprendizados como:
+Esse projeto foi feito para colocar em pratica alguns aprendizados:
 
 * **Estrutura de um projeto de dados**
 
 * **Familiarizar-se com ferramentas de desenvolvimento**
 
-* **webscraping**
+* **Webscraping**
 
 
 
@@ -41,7 +41,12 @@ pip install -r requirements.txt
 task run
 ```
 
-5. Execute os seguintes comandos para acessar o site local
+5. Execute o comando para ver a documentacao de forma local:
+```bash
+task docs
+```
+
+6. Execute os seguintes comandos para acessar o site local
 ```bash
 cd streamlit
 streamlit run app.py
