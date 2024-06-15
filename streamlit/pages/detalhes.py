@@ -13,7 +13,7 @@ st.set_page_config(
     layout='wide',
     initial_sidebar_state='collapsed',
 )
-df = pd.read_excel('../data/output/animes_temporada.xlsx')
+df = pd.read_excel('../data/animes_temporada.xlsx')
 
 
 animes = st.selectbox('Ver Detalhe de qual anime? ', df['nome'])

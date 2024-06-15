@@ -7,4 +7,4 @@ if __name__ == '__main__':
     if response:
         dados = raspasgem(response)
         df = cria_dataframe(dados)
-        carrega_csv(df, 'data/output', 'animes_temporada')
+        carrega_csv(df, 'data', 'animes_temporada')

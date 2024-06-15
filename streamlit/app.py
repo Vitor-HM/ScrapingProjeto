@@ -12,7 +12,7 @@ st.set_page_config(
     initial_sidebar_state='collapsed',
 )
 
-df = pd.read_excel('../data/output/animes_temporada.xlsx')
+df = pd.read_excel('../data/animes_temporada.xlsx')
 
 
 st.title('Animes Da Temporada')

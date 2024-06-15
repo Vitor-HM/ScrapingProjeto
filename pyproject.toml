@@ -1,0 +1,3 @@
+[tool.taskipy.tasks]
+format = "isort . && black ."
+run = "python app/main.py"
