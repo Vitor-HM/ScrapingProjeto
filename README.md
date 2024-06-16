@@ -15,6 +15,7 @@ Esse projeto foi feito para colocar em pratica alguns aprendizados:
 
 * **Git e GitHub**:
 1. Você deve ter o Git instalado em sua máquina.
+
 2. Você também deve ter uma conta no GitHub.
 
 ### Instalação e Configuração
